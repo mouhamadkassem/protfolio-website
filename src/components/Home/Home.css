@@ -1,0 +1,126 @@
+.home {
+  height: 400px;
+  width: 100%;
+  color: white;
+}
+
+.btn-theme {
+  width: 42.5px;
+  height: 42.5px;
+  background-color: #030303da;
+  position: fixed;
+  right: 37.5px;
+  top: 600px;
+  border-radius: 100%;
+  cursor: pointer;
+  z-index: 1;
+  text-align: center;
+  padding-top: 7.5px;
+}
+
+.btn-theme-dark {
+  width: 42.5px;
+  height: 42.5px;
+  background-color: white;
+  color: black;
+  position: fixed;
+  right: 37.5px;
+  top: 600px;
+  border-radius: 100%;
+  cursor: pointer;
+  z-index: 1;
+  text-align: center;
+  padding-top: 7.5px;
+}
+@media (max-width: 1000px) {
+  .btn-theme-dark {
+    display: none;
+  }
+  .btn-theme {
+    display: none;
+  }
+}
+
+.home-container {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  font-size: 30px;
+  padding-top: 150px;
+  /* padding-left: 250px; */
+}
+
+.home-container h3 {
+  margin-top: 20px;
+  color: yellow;
+}
+
+.Btn-1 {
+  margin-top: 15px;
+  margin-right: 5px;
+  width: 170px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 30px;
+  background-color: orange;
+  font-size: 17px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial", "sans-serif";
+  transition: 1s;
+}
+
+.Btn-1:hover {
+  background-color: white;
+  border: 2px solid orange;
+  color: orange;
+  width: 250px;
+  transition: 1s;
+}
+.Btn-2 {
+  margin-top: 15px;
+  margin-left: 5px;
+  width: 170px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 30px;
+  background-color: Yellow;
+  transition: 1s;
+}
+
+.Btn-2 a {
+  text-decoration-line: none;
+  font-size: 17px;
+  text-decoration-color: red;
+}
+
+.Btn-2 a p {
+  margin: 0;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial", "sans-serif";
+  transition: 1s;
+}
+.Btn-2:hover p {
+  color: white;
+  transition: 1s;
+}
+.Btn-2:hover {
+  background-color: orangered;
+  border: 2px solid white;
+  color: white;
+  width: 250px;
+  transition: 1s;
+}
+
+.light-rotate {
+  animation: rotation infinite 5s linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

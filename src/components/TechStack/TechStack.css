@@ -1,0 +1,99 @@
+.tech-title {
+  text-align: center;
+}
+
+.text-content {
+  margin-top: 30px;
+  padding: 0 50px 20px 50px;
+  box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  transition: 1s;
+}
+
+#dark .text-content {
+  background-color: rgb(130, 130, 130);
+  color: white;
+}
+
+.text-content:hover {
+  background-color: #ff854c;
+  transition: 1s;
+  box-shadow: 23px 16px 14px 2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 23px 16px 14px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 23px 16px 14px 2px rgba(0, 0, 0, 0.75);
+}
+
+.text-content:hover p {
+  color: white;
+  font-size: 20px;
+  transition: 1s;
+}
+.text-content p {
+  text-align: center;
+  transition: 1s;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.tech-number {
+  position: relative;
+  top: -20px;
+  width: 50px;
+  height: 50px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.tech-section {
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+.btn-show-more {
+  position: relative;
+  display: block;
+  width: 150px;
+  padding: 10px;
+  background-color: #ff854c;
+  margin: 30px auto;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  color: white;
+}
+
+.btn-show-less {
+  position: relative;
+  display: block;
+  width: 150px;
+  color: white;
+  padding: 10px;
+  background-color: #ff854c;
+  margin: 30px auto;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-show-more:hover {
+  background-color: tomato;
+  transition: 0.3s;
+}
+
+.text-content-other {
+  background-color: tomato;
+  color: white;
+}

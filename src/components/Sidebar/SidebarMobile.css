@@ -1,0 +1,74 @@
+.mobile-sidebar {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  cursor: pointer;
+}
+.nav-M {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: transparent !important;
+}
+.mobile-sidebardiv {
+  background-color: brown;
+  width: 100%;
+  color: white;
+  height: 50px;
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+  padding-left: 10px !important;
+}
+
+.mobile-sidebardiv p {
+  cursor: pointer;
+}
+
+.mobile-navb {
+  background-color: brown;
+  width: 200px;
+  padding: 5px 0;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.mobile-nav {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.mobile-sidebar {
+  margin: 10px 0;
+  text-decoration: none;
+  color: black;
+  width: 170px;
+  /* background-color: white; */
+  list-style: none;
+  border-radius: 25px;
+  transition-duration: 1s;
+}
+.mobile-sidebar .active {
+  padding-left: 10px;
+  margin-left: 10px;
+}
+.mobile-sidebar a {
+  text-decoration: none;
+  color: white;
+  transition-duration: 1s;
+}
+
+.mobile-sidebar p {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+@media (min-width: 1000px) {
+  .nav-M {
+    display: none;
+  }
+}
+
+.switch {
+  margin-top: 30px;
+}

@@ -1,0 +1,17 @@
+.tech-work {
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px auto 0 auto;
+  cursor: pointer;
+  text-align: center;
+}
+
+.tech-work:hover {
+  background-color: bisque !important;
+  color: black !important;
+  font-size: 17px;
+}
+
+.date-color {
+  color: rgb(231, 192, 145);
+}
